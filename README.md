@@ -9,3 +9,5 @@ The facts:
 ### Scrap Section
 
 This is a commit made and pushed from a computer.
+
+This addition was made on GitHub.
