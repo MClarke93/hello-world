@@ -11,3 +11,5 @@ The facts:
 This is a commit made and pushed from a computer.
 
 This addition was made on GitHub.
+
+This new addition was made from a computer is being pushed directly to main.
