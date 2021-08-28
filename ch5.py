@@ -111,8 +111,8 @@ print(a, b, c, d, e)
 print("\n6. Sets...")                        # Use {} for defining sets
 
 a = set()                             # Must use set() for an empty set
-b = {1, 1, 2, 3, 4}    # Sets are UNORDERED and duplicates are combined
-c = {2, 3, 5, 6}
+b = {1, 1, 3, 2, 4}    # Sets are UNORDERED and duplicates are combined
+c = {2, 3, 6, 5}
 d = b | c                                                          # OR
 e = b & c                                                         # AND
 f = b ^ c                                                         # XOR
@@ -127,7 +127,7 @@ a = {'a': 1, 'b': 2, 'c': 3}                    # Defining a dictionary
 a['a'] = 4                                           # Changing a value
 a['d'] = 5                                             # Adding a value
 b = {'d': 6, 'e': 7, 'f': 8}
-c = {key: value for key, value in [('g', 9), ('h', 10)]}    # Dict comp
+c = {key: value for key, value in (('g', 9), ('h', 10))}    # Dict comp
 d = dict([('i', 11), ('j', 12)])   # Another way to create a dictionary
-e = {**b, **c, **d}                      # Merging dictionaries with **
+e = {**b, **c, **d}         # Merging dictionaries with tuple unpacking
 print(a, b, c, d, e)
