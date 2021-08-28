@@ -1,4 +1,7 @@
 .venv/
 __pycache__/
+
 *.txt
+!file1.txt
+
 *.json
